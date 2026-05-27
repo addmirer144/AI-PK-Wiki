@@ -1,17 +1,26 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: AI-PK M-System
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
-  locale: en-US
-  baseUrl: quartz.jzhao.xyz
+    provider: "null"
+  locale: ko-KR
+  baseUrl: addmirer144.github.io/AI-PK-Wiki
   ignorePatterns:
     - private
     - templates
     - .obsidian
+    - .git
+    - .claude
+    - .agent
+    - .smart-env
+    - .smtcmp_json_db
+    - "*.pdf"
+    - "*.docx"
+    - graphify-out
+    - 책_md
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
@@ -112,7 +121,7 @@ plugins:
   - source: github:quartz-community/favicon
     enabled: true
   - source: github:quartz-community/og-image
-    enabled: true
+    enabled: false
   - source: github:quartz-community/cname
     enabled: true
   - source: github:quartz-community/canvas-page
@@ -196,8 +205,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/addmirer144/AI-PK-M-System
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
@@ -213,7 +221,7 @@ plugins:
     options: {}
     order: 50
   - source: github:quartz-community/note-properties
-    enabled: true
+    enabled: false
     options:
       includeAll: false
       includedProperties:
